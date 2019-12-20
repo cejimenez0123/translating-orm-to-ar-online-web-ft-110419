@@ -1,3 +1,4 @@
+require 'pry'
 class Dog < ActiveRecord::Base
-  self.colomn_na
+  binding.pry
 end
